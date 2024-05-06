@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using IsaacOkomanyi_ProfilePage.Models;
 
 namespace IsaacOkomanyi_ProfilePage.Data
 {
@@ -9,5 +10,6 @@ namespace IsaacOkomanyi_ProfilePage.Data
             : base(options)
         {
         }
+       
     }
 }
